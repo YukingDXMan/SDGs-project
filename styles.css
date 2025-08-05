@@ -19,7 +19,7 @@ header{
   }
 html{
   background-image:
-  url("img/earth1.png");
+  url("earth1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -80,3 +80,4 @@ footer {
   background-color: white; 
   z-index: 1000;
 }
+
