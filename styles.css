@@ -1,0 +1,82 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+.zen-maru-gothic-regular {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1.header_h1{
+    color:#fafad2;
+    font-size:75px;
+    text-align: center;
+    font-family: Zen Maru Gothic;
+}
+header{
+    background-color: #0075c2;
+  }
+html{
+  background-image:
+  url("img/earth1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.div_1 {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1.2s ease-in-out;
+}
+h2{
+  text-align: center;
+}
+.choice{
+  display: flex;
+  justify-content: space-between;
+  gap:20px;
+  align-items: stretch;
+}
+.choice p{
+  flex:1;
+  border-radius: 5px;
+  text-align: center;
+}
+.option{
+  flex: 1;
+  text-align: center;
+}
+.option img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.div_1.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.s1 h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.s1 p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+footer {
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; 
+  z-index: 1000;
+}
